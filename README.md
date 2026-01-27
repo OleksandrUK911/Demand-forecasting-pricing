@@ -1,5 +1,7 @@
 # 🎯 Прогнозування попиту + Ціноутворення з урахуванням ризиків
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://demand-forecasting-risk-aware-pricing.streamlit.app/)
+
 **Проєкт:** Namecheap R&D прототип для прогнозування попиту на домени та динамічного ціноутворення
 
 Система машинного навчання для оптимізації ціноутворення на доменні імена з урахуванням невизначеності попиту та ринкових ризиків.
@@ -23,8 +25,8 @@
 **Головний файл:**  
 → **[demand_forecasting_pricing.ipynb](demand_forecasting_pricing.ipynb)** — повний ML pipeline (36 cells, детальні пояснення українською)
 
-**Інтерактивне demo:**  
-→ **Streamlit App** (4 вкладки: Overview, Pricing Analysis, Revenue Curves, Results)
+**🌐 Live Demo:**  
+→ **[Streamlit App](https://demand-forecasting-risk-aware-pricing.streamlit.app/)** (4 вкладки: Overview, Pricing Analysis, Revenue Curves, Results)
 
 ## 💡 Ключові ідеї
 
@@ -45,7 +47,11 @@ pip install -r requirements.txt
 jupyter notebook demand_forecasting_pricing.ipynb
 ```
 
-### Streamlit Demo
+### Streamlit Demo (Live)
+
+**🌐 Online:** [https://demand-forecasting-risk-aware-pricing.streamlit.app/](https://demand-forecasting-risk-aware-pricing.streamlit.app/)
+
+**Локально:**
 ```bash
 # Запустити інтерактивний dashboard
 streamlit run app.py
