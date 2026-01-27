@@ -1,0 +1,28 @@
+# Python requirements for Demand Forecasting + Risk-Aware Pricing
+# Generated: January 27, 2026
+
+# Core data science stack
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+
+# Streamlit for interactive app
+streamlit>=1.30.0
+streamlit>=1.28.0
+
+# Optional: for production deployment
+# mlflow>=2.8.0
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# pydantic>=2.4.0
